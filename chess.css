@@ -1,0 +1,39 @@
+div{
+    
+}
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-image: url(chess14.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 720px;
+    background-color: black;
+    
+}
+#mainbox{
+    height: 600px;
+    width: 100vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(8,12%);
+    grid-template-rows: repeat(8,12%);
+    /* border: 5px solid black ; */
+
+}
+.box{
+    font-size: 3rem;
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+.box1,.box3,.box5,.box7,.box10,.box12,.box14,.box16,.box17,.box19,.box21,.box23,.box26,.box28,.box30,.box32,.box33,.box35,.box37,.box39,.box42,.box44,.box46,.box48,.box49,.box51,.box53,.box55,.box58,.box60,.box62,.box64{
+    background-color: rgb(143, 183, 159);
+    border: 1px solid black;
+}
+.box2,.box4,.box6,.box8,.box9,.box11,.box13,.box15,.box18,.box20,.box22,.box24,.box25,.box27,.box29,.box31,.box34,.box36,.box38,.box40,.box41,.box43,.box45,.box47,.box50,.box52,.box54,.box56,.box57,.box59,.box61,.box63{
+    background-color: white;
+    border: 1px solid black;
+}

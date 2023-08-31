@@ -1,0 +1,27 @@
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: min-content;
+    width: auto;
+}
+body{
+    background-color:azure;
+    background-image: url(sample5);
+    background-repeat: no-repeat;
+    background-size: 1250px 700px;
+    opacity: 0.9;
+
+}
+div{
+    background-color:rgb(241, 194, 162);
+   margin: auto;
+   width: 50%;
+   margin-top: 75px;
+   padding:15px;   
+}
+#name{
+    background-color: whitesmoke;
+}
+.dd{
+    color:navy;
+}

@@ -1,0 +1,42 @@
+div{
+    align-items: center;
+    align-content: center;
+        height: 280px;
+        width: 250px;
+        background-color: teal;
+        border: 5px solid white;
+        margin: auto;
+        margin-top: 15%;
+        padding: 10px;
+        border-radius: 10%;
+        text-align: center;
+        
+        }    
+    h3{
+        
+        color: white;
+        
+    }    
+    body{
+        background-color: #afeeee;
+        background-image: url(dd.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    #dd{
+        height: 30px;
+        width: 30px;
+        background-color: midnightblue;
+        border-color: yellow white green ;
+        border-radius: 50%;
+        color: white;
+        
+    }
+    #result{
+        background-color: rgb(239, 246, 247);
+        color: black;
+        border: 3px solid maroon;
+        border-color:  moccasin;
+        
+    }
