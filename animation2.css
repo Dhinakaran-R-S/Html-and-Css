@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(rgb(149, 240, 149),rgb(245, 245, 191));
+}
+#dhina{
+    font-size: 1rem;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes animation{
+       0%{left: 0%;top: 40%;color: blue;font-size: 2rem;}
+       25%{left:50%;top:0%;color: red;font-size: 1rem;}
+       50%{top:40%;left:95%;color: rgb(88, 78, 3);font-size: 1rem;}
+       75%{left:50%;top:95%;color: rgb(23, 4, 4);font-size: 1rem;}
+        100%{
+            top: 40%;
+            left: 45%;
+            color: blue;
+            font-size: 3rem;
+        }
+
+
+       
+}
